@@ -27,7 +27,7 @@ struct ContentView: View {
                 VStack {
                     Text("IOS")
                         .frame(width: 250, height: 60)
-                        .background(.black)// bonus change it to cyan
+                        .background(Color(hue: 0.567, saturation: 0.554, brightness: 0.891))// bonus change it to cyan
                         .clipShape(RoundedRectangle(cornerRadius: 35))
                         .onTapGesture {
                             name = "apple"
@@ -37,8 +37,9 @@ struct ContentView: View {
                         
 
                     Text("Gamedev")
+                        .foregroundColor(Color.white)
                         .frame(width: 250, height: 60)
-                        .background(.black)// bonus change it to red
+                        .background(.red)// bonus change it to red
                         .clipShape(RoundedRectangle(cornerRadius: 35))
                         .onTapGesture {
                             name = "gamedev"
@@ -46,7 +47,7 @@ struct ContentView: View {
                         
                     Text("Web")
                         .frame(width: 250, height: 60)
-                        .background(.black)// bonus change it to blue
+                        .background(.blue)// bonus change it to blue
                         .clipShape(RoundedRectangle(cornerRadius: 35))
                         .onTapGesture {
                             name = "web"
@@ -55,7 +56,7 @@ struct ContentView: View {
                         
                     Text("Android")
                         .frame(width: 250, height: 60)
-                        .background(.black)// bonus change it to green
+                        .background(.green)// bonus change it to green
                         .clipShape(RoundedRectangle(cornerRadius: 35))
                         .onTapGesture {
                             name = "android"
